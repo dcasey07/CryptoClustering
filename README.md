@@ -6,10 +6,10 @@ The goal for this challenge was to create an unsupervised machine learning model
 
 ## Features
 
-The jupyter notebook scales the csv of the crypto market data of price changes over various intervals from 1 day to 1 year and generates elbow plots to identify the proper amount of clusters. Then after creating a model using only the scaled data, a second model is created using PCA to reduce the dimensions of the data while still offering a robust coverage of data. The resulting scatter plots and line graphs are combined for a quick comparison, and analysis is located throughout the cells of the notebook.
+The Jupyter notebook scales the csv of the crypto market data of price changes over various intervals from 1 day to 1 year and generates elbow plots to identify the proper amount of clusters. Then after creating a model using only the scaled data, a second model is created using PCA to reduce the dimensions of the data while still offering a robust coverage of data. The resulting scatter plots and line graphs are combined for a quick comparison, and analysis is located throughout the cells of the notebook.
 
 ## Dependencies and Implementation
-This model was created using Python in Jupyter notebook, with the sklearn library importing KMeans, PCA, and a Standard Scaler. Plots were generated on hvplot through the use of pandas dataframes.
+This model was created using Python in Jupyter notebook, with the scikit-learn library importing KMeans, PCA, and a Standard Scaler. Plots were generated on Hvplot through the use of Pandas dataframes.
 
 ## Analysis
 
